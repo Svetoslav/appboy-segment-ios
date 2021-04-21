@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 #if __has_include(<Segment/SEGIntegrationFactory.h>)
-#import <Segment/SEGIntegrationFactory.h>
+@import Segment;
 #elif __has_include(<Analytics/SEGIntegrationFactory.h>)
 #import <Analytics/SEGIntegrationFactory.h>
 #endif
